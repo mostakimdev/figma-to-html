@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1000px){
+  .features_box {
+    width: 100%;
+  
+}
+}
+
+@media only screen and (max-width: 992px) {
+
+  .left_header nav ul{
+  display:none;
+  }
+
+  
+.right_header{
+  display:none;
+
+}
+
+.toggoler{
+  display:block;
+}
+
+#banner {
+  height: auto;
+  background-image: none;
+}
+
+.inner_banner{
+  margin-top: 30px;
+}
+
+.data_img img {
+  height: 232px;
+}
+
+.data_decribetion h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 110%;
+}
+
+.data_decribetion p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  margin-top: 23px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 764px) {
+
+  #banner{
+    background-image: none;
+    height: auto;
+  }
+.inner_banner{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner_banner h1 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.inner_banner p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4B5D68;
+  max-width: 100%;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.first_part {
+  flex-direction: column;
+}
+
+.first_part div{
+  margin-bottom: 15px;
+}
+
+.first_part div h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.first_part div p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+
+.second_part {
+flex-wrap: wrap;
+}
+
+.second_part > div{
+  margin-bottom: 15px;
+}
+
+}
+
+
+@media only screen and (max-width: 570px) {
+
+
+  .inner_banner {
+    margin-top: 15px;
+    width:100%
+}
+  
+  .inner_banner h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+ 
+}
+
+.inner_banner p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  max-width: 150%;
+  margin: 25px 0;
+}
+
+
+.inner_data {
+flex-direction: column;
+}
+
+
+.data_decribetion h2 {
+  font-size: 27px;
+}
+
+
+#features {
+  padding-top: 82px;
+}
+
+.features_box {
+  margin-bottom: 13px;
+}
+
+#features h2 {
+  font-size: 27px;
+}
+
+#features .container > p {
+  font-size: 12px;
+  margin: 22px auto 48px;
+}
+
+.features_box img {
+  width: 151px;
+}
+
+.features_text h4 {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.features_text p {
+  font-size: 12px;
+  margin: 16px 0;
+}
+
+.features_text a {
+  font-size: 12px;
+}
+
+.first_part div h2 {
+  font-size: 25px;
+}
+
+.btn_box{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_box a{
+  margin-bottom: 10px;
+}
+
+.adress div h3 {
+  font-size: 16px;
+}
+
+}
